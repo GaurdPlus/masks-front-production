@@ -1,0 +1,223 @@
+.main-bg{
+  background-color: rgb(181, 202, 238);
+}
+
+.second-bg{
+  background-color: rgba(11, 96, 175, 0.698);
+}
+
+.dark-blue{
+  color: rgb(4, 56, 116);
+}
+
+.navbar-logo-style{
+  width:12rem;
+  height: auto;
+}
+
+@media only screen and (max-width: 400px) {
+  .logo-bottom-text{
+    font-size: x-small;
+  }
+}
+
+.logo-bottom-text{
+  font-weight: 400;
+}
+
+/* .cart-logo{
+  position: static;
+  z-index: -999
+} */
+
+#lblCartCount {
+  font-size: 12px;
+  background: #997104;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+.badge {
+padding-left: 9px;
+padding-right: 9px;
+-webkit-border-radius: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+background-color: #c67605;
+}
+
+
+.about_section-bg{
+    min-height: 100vh;  
+    width: 100vw;  
+    background-image: url(./assests/flag.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_section p{
+  margin-top: 2.5em;
+}
+
+
+.PlaceHolder-Image-Section{
+    height:60vh;
+    width:100vw;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(./assests/people-masks.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assests/people-masks.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .contact-us-form-section{
+  background: #e9e9e9;
+} */
+
+.contact-us-form-section h4{
+  color: rgba(0, 0, 0, 0.794);
+  font-family: 'RobotoDraft', 'Roboto', sans-serif !important;
+  letter-spacing: 0.15em;
+}
+
+.info_section {
+  background-color: #c1dcf9;
+}
+
+.info_items {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.font-xs{
+  font-size: x-small !important;
+}
+
+.info_items .item {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.logo-statement{
+  font-size: medium;
+  font-weight: 400 !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .logo-statement{
+    font-size: xx-small;
+    /* font-weight: 400 !important; */
+  }
+  .info_items {
+    justify-content: center;
+  }
+  
+}
+
+
+
+.info_items .item .img-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info_items .item .detail-box {
+  margin-top: 25px;
+  color: #fff;
+}
+
+.info_items {
+  position: relative;
+}
+
+.info_items a {
+  position: relative;
+}
+
+/* .info_items::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  width: 80%;
+  height: 1px;
+  background-color: #fff;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+} */
+
+.info_items .item .img-box.box-1 {
+  background-image: url(./images/location-blue.png);
+}
+
+.info_items .item .img-box.box-2 {
+  background-image: url(./images/telephone-blue.png);
+}
+
+.info_items .item .img-box.box-3 {
+  background-image: url(./images/envelope-blue.png);
+}
+
+.info_items .item .img-box:hover {
+  background-color: #179dfb;
+}
+
+.info_items .item .img-box:hover.box-1 {
+  background-image: url(./images/location-white.png);
+}
+
+.info_items .item .img-box:hover.box-2 {
+  background-image: url(./images/telephone-white.png);
+}
+
+.info_items .item .img-box:hover.box-3 {
+  background-image: url(./images/envelope-white.png);
+}
+
+.auth-screen{
+  /* background-color: #1d86c9; */
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.auth-screen-bg{
+  background-color:#fff0f8;
+}
+
+.image-preview img{
+  width:100%;
+}
+
+.apple-font{
+  font-family: 'Montserrat', sans-serif !important;
+}
